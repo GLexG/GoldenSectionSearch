@@ -1,0 +1,48 @@
+package memstream;
+
+import com.maxeler.maxcompiler.v2.kernelcompiler.Kernel;
+import com.maxeler.maxcompiler.v2.kernelcompiler.KernelParameters;
+import com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEType;
+import com.maxeler.maxcompiler.v2.kernelcompiler.types.base.DFEVar;
+
+class MemStreamKernel extends Kernel {
+
+	private static final DFEType type = dfeInt(32);
+
+	protected MemStreamKernel(KernelParameters parameters) {
+		super(parameters);
+
+		DFEVar a = io.scalarInput("a",type);
+		DFEVar b = io.scalarInput("b",type);
+		DFEVar c,d,fc,fd,rez;
+		DFEVar golden_ratio = constant.var(0.618034);
+		int max = 50;
+		//DFEVar aboveLowerBound = count < n-1;
+
+		c = b - golden_ratio * (b - a);
+		d = a + golden_ratio * (b - a);
+
+		for (int i=1; i<=max; i++){
+			fc = c*c*c -2*c -5;
+			fd = d*d*d -2*d -5;
+
+			if(fc == fd){
+				b=d;
+				d=c;
+				c=b- golden_ratio * (b-a);
+			}else{
+				a = c;
+				c = d;
+				d = a + golden_ratio * (b-a);
+			}
+
+		rez = (b+a) / 2;
+		}
+
+		io.output("r",(b+a) / 2,type);
+
+
+	}
+
+}
+

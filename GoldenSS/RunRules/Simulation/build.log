@@ -1,0 +1,109 @@
+Sat 12:11: ########################################## 
+Sat 12:11: Compiling.
+Sat 12:11: ########################################## 
+
+Sat 12:11: MaxCompiler version: 2015.1.1 (simulation only).
+Sat 12:11: Build Simulation run rule for GoldenSS start time: Sat Jan 30 12:11:14 PST 2016.
+Sat 12:11: Project location: /home/demo/workspace/GoldenSS.
+Sat 12:11: Detailed build log: /home/demo/workspace/GoldenSS/RunRules/Simulation/build.log.
+
+Sat 12:11: Compiling Engine Code.
+Sat 12:11: Engine building skipped (no changes on .max files).
+Sat 12:11: Compiling CPU Code.
+Sat 12:11: Run CPU project make files updating
+Sat 12:11: Executing command:
+Sat 12:11: java -jar /opt/maxeler/maxcompiler/lib/MaxIDE/projectAdmin.jar -u /home/demo/workspace/GoldenSS Simulation 
+Sat 12:11: Command output:
+
+Sat 12:11: MaxCompiler Project Admin Tool Version 2015.1.10001
+Sat 12:11:  Copyright Maxeler Technologies 2010 - 2015. All rights reserved.
+
+Sat 12:11: Handler version 2
+Sat 12:11: Updating RunRule dependent Makefiles for RunRule 'Simulation'
+Sat 12:11: 	Updating: Simulation
+Sat 12:11: Found makefiles: 1
+Sat 12:11: 	Updated: Simulation
+Sat 12:11: Run CPU make.
+Sat 12:11: make RUNRULE=Simulation 
+Sat 12:11: Command output:
+Sat 12:11: make -f Makefile.rules build
+Sat 12:11: make[1]: Entering directory `/home/demo/workspace/GoldenSS/CPUCode'
+Sat 12:11: set -e; rm -f ../RunRules/Simulation/objects/c/MemStreamCpuCode.d ;                                                             \
+Sat 12:11: 	  cc -M -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -Wno-error MemStreamCpuCode.c > ../RunRules/Simulation/objects/c/MemStreamCpuCode.d.$$ ;                                 \
+Sat 12:11:       sed 's,\(MemStreamCpuCode\)\.o[ :]*,../RunRules/Simulation/objects/c/\1.o ../RunRules/Simulation/objects/c/MemStreamCpuCode.d : ,g' < ../RunRules/Simulation/objects/c/MemStreamCpuCode.d.$$ > ../RunRules/Simulation/objects/c/MemStreamCpuCode.d; \
+Sat 12:11:       rm -f ../RunRules/Simulation/objects/c/MemStreamCpuCode.d.$$
+Sat 12:11: make[1]: Leaving directory `/home/demo/workspace/GoldenSS/CPUCode'
+Sat 12:11: make[1]: Entering directory `/home/demo/workspace/GoldenSS/CPUCode'
+Sat 12:11: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -c MemStreamCpuCode.c -o ../RunRules/Simulation/objects/c/MemStreamCpuCode.o
+Sat 12:11: cc -std=gnu99 -g -O3 -Wall -Wextra -I../RunRules/Simulation/include  -I '/opt/maxeler/maxcompiler/include/slic'  -o ../RunRules/Simulation/binaries/MemStream ../RunRules/Simulation/objects/maxfiles/slic_MemStream.o ../RunRules/Simulation/objects/c/MemStreamCpuCode.o -g -O3  -L '/opt/maxeler/maxcompiler/lib' -lslic -L '/opt/maxeler/maxcompiler/lib/maxeleros-sim/lib' -lmaxeleros -lpthread -lm -lrt 
+Sat 12:11: make[1]: Leaving directory `/home/demo/workspace/GoldenSS/CPUCode'
+Sat 12:11: Build completed: Sat Jan 30 12:11:16 PST 2016
+
+
+Sat 12:11: ########################################## 
+Sat 12:11: Running
+Sat 12:11: ########################################## 
+Sat 12:11: Executing command:
+Sat 12:11: '/home/demo/workspace/GoldenSS/RunRules/Simulation/binaries/MemStream' 
+Sat 12:11: Command output:
+Sat 12:11: 16.995935440063477 
+Sat 12:11: 10.504064559936523 
+Sat 12:11: 6.491869449615479 
+Sat 12:11: 4.012195587158203 
+Sat 12:11: 2.479673385620117 
+Sat 12:11: 1.532522320747375 
+Sat 12:11: 0.947150886058807 
+Sat 12:11: 0.585371434688568 
+Sat 12:11: 0.808963418006897 
+Sat 12:11: 0.947150856256485 
+Sat 12:11: 0.861746311187744 
+Sat 12:11: 0.808963418006897 
+Sat 12:11: 0.841585069894791 
+Sat 12:11: 0.821423798799515 
+Sat 12:11: 0.808963418006897 
+Sat 12:11: 0.816664338111877 
+Sat 12:11: 0.811904907226562 
+Sat 12:11: 0.814846396446228 
+Sat 12:11: 0.816664338111877 
+Sat 12:11: 0.815540790557861 
+Sat 12:11: 0.816235184669495 
+Sat 12:11: 0.816664338111877 
+Sat 12:11: 0.816929578781128 
+Sat 12:11: 0.816765666007996 
+Sat 12:11: 0.816866964101791 
+Sat 12:11: 0.816804349422455 
+Sat 12:11: 0.816843062639236 
+Sat 12:11: 0.816819131374359 
+Sat 12:11: 0.816833913326263 
+Sat 12:11: 0.816824793815613 
+Sat 12:11: 0.816830426454544 
+Sat 12:11: 0.816826939582825 
+Sat 12:11: 0.816829115152359 
+Sat 12:11: 0.816830426454544 
+Sat 12:11: 0.816831260919571 
+Sat 12:11: 0.816831767559052 
+Sat 12:11: 0.816831439733505 
+Sat 12:11: 0.816831618547440 
+Sat 12:11: 0.816831767559052 
+Sat 12:11: 0.816831827163696 
+Sat 12:11: 0.816831886768341 
+Sat 12:11: 0.816831886768341 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: 0.816831916570663 
+Sat 12:11: Process terminated with exit code 0.

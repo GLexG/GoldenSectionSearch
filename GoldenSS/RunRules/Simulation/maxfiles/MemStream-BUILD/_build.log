@@ -1,0 +1,480 @@
+Sat 11:51: PROGRESS: MaxCompiler version: 2015.1.1 (simulation only)
+Sat 11:51: PROGRESS: Build "MemStream" start time: Sat Jan 30 11:51:15 PST 2016
+Sat 11:51: PROGRESS: Main build process running as user demo on host localhost.localdomain
+Sat 11:51: INFO    : Loading build properties from bundled MaxCompiler_build.conf...
+Sat 11:51: INFO    : No default external build property file has been specified.
+Sat 11:51: INFO    : (Set environment variable MAXCOMPILER_DEFAULT_CONF_FILE to assign one)
+Sat 11:51: INFO    : Loading user build properties from: /home/demo/.MaxCompiler_build_user.conf
+Sat 11:51: INFO    : No user-specified external build property file has been specified.
+Sat 11:51: INFO    : (Set environment variable MAXCOMPILER_BUILD_CONF_FILE to assign one)
+Sat 11:51: INFO    : Loading additional parameters from MAXCOMPILER_BUILD_CONF environment variable
+Sat 11:51: PROGRESS: Build location: /home/demo/Desktop/MaxCompiler-Builds/MemStream_VECTIS_DFE_SIM
+Sat 11:51: PROGRESS: Detailed build log available in "_build.log"
+Sat 11:51: INFO    : Created build manager MemStream (MemStream_VECTIS_DFE_SIM Sat Jan 30 11:51:15 PST 2016). (11:51:15 30/01/16)
+Sat 11:51: INFO    : Working in dir: /home/demo/Desktop/MaxCompiler-Builds/MemStream_VECTIS_DFE_SIM
+Sat 11:51: INFO    : Java class path (2 paths):
+Sat 11:51: INFO    : 	/home/demo/workspace/GoldenSS/EngineCode/bin
+Sat 11:51: INFO    : 	/opt/maxeler/maxcompiler/lib/MaxCompiler.jar
+Sat 11:51: INFO    : Java process started by 'main' method in class 'memstream.MemStreamManager'.
+Sat 11:51: INFO    : build.arbitrated_core_cache parameter is blank, not using core-cache
+Sat 11:51: INFO    : Checking license files in directory: /opt/maxeler/maxcompiler/licenses
+Sat 11:51: INFO    : All license signatures valid.
+Sat 11:51: INFO    : Backing-up source-files (old source files in build directory will be removed first)...
+Sat 11:51: INFO    : Source directories: /home/demo/workspace/GoldenSS/EngineCode/src:
+Sat 11:51: INFO    : Deleting directory: src
+Sat 11:51: INFO    : Copying source-files took 4.39239 ms
+Sat 11:51: PROGRESS: Instantiating manager
+Sat 11:51: INFO    : Deleting /home/demo/Desktop/MaxCompiler-Builds/MemStream_VECTIS_DFE_SIM/scratch/MemStreamKernel_graph_warnings.txt
+Sat 11:51: INFO    : Deleting /home/demo/Desktop/MaxCompiler-Builds/MemStream_VECTIS_DFE_SIM/scratch/MemStreamKernel.graphs
+Sat 11:51: PROGRESS: Instantiating kernel "MemStreamKernel"
+Sat 11:51: PROGRESS: Compiling manager (Configurable)
+Sat 11:51: INFO    : Manager Configuration:
+Sat 11:51: INFO    : 	ManagerConfiguration.allowNonMultipleTransitions = false                                                         [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.board = MAX3424A                                                                            [Init: null, init: MAX3424A]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.buildEffort = MEDIUM                                                                  [Init: MEDIUM]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.enableChipScopeInserter = false                                                       [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.enableTimingAnalysis = true                                                           [Init: true]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.level = FULL_BUILD                                                                    [Init: FULL_BUILD]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.mpprContinueAfterMeetingTiming = false                                                [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.mpprCtMax = 1                                                                         [Init: 1]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.mpprCtMin = 1                                                                         [Init: 1]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.mpprParallelism = 1                                                                   [Init: 1]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.mpprRetryMissesThrshld = 0                                                            [Init: 0]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.optGoal = BALANCED                                                                    [Init: BALANCED]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.physSynthAsyncPipelining = AUTO                                                       [Init: AUTO]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.physSynthCombLogic = AUTO                                                             [Init: AUTO]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.physSynthCombLogicForArea = AUTO                                                      [Init: AUTO]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.physSynthEffort = AUTO                                                                [Init: AUTO]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.physSynthRegDuplication = AUTO                                                        [Init: AUTO]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.physSynthRetiming = AUTO                                                              [Init: AUTO]
+Sat 11:51: INFO    : 	ManagerConfiguration.build.physicalSynthesis = false                                                             [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.buildTarget = DFE_SIM                                                                       [Init: null, init: DFE_SIM]
+Sat 11:51: INFO    : 	ManagerConfiguration.debug.chipscopeCaptureDepth = 4096                                                          [Init: 4096]
+Sat 11:51: INFO    : 	ManagerConfiguration.debug.fifoUnderOverFlowRegs = false                                                         [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.debug.memCtlDebugRegs = true                                                                [Init: true]
+Sat 11:51: INFO    : 	ManagerConfiguration.debug.memCtlExtraDebugRegs = false                                                          [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.debug.memMarginingSupport = false                                                           [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.debug.memPhyDebugRegister = NONE                                                            [Init: NONE]
+Sat 11:51: INFO    : 	ManagerConfiguration.debug.memPllLockDebugRegs = true                                                            [Init: true]
+Sat 11:51: INFO    : 	ManagerConfiguration.debug.streamStatus = false                                                                  [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.debug.streamStatusChecksums = false                                                         [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.addressGeneratorsInSlowClock = false                                                   [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.arbitrationMode = ROUND_ROBIN                                                          [Init: ROUND_ROBIN]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.burstSize = 8                                                                          [Init: 8]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.cmdFifoInReg = false                                                                   [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.cmdFifoLutRam = false                                                                  [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.cmdFifoRegInRam = true                                                                 [Init: true]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.cmdFifoSize = 31                                                                       [Init: 31]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.commandEchoModeEnabled = false                                                         [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.commandEchoModeFifoDepth = 512                                                         [Init: 512]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.commandEchoModeStreamAlmostEmptyLatency = 792                                          [Init: 792]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.commandEchoModeStreamAlmostEmptyLatency = 8                                            [Init: 8]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.commandEchoModeStreamStallLatency = 8                                                  [Init: 8]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.dataFifoDepth = 512                                                                    [Init: 512]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.dataFifoLutRam = false                                                                 [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.dataFifoWidth = 792                                                                    [Init: 792]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.eccMode = false                                                                        [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.fabricDataFifoReg = true                                                               [Init: true]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.fabricRdDataFifoReg = false                                                            [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.flagSupport = false                                                                    [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.highPrioStream = false                                                                 [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.max2CompatMode = false                                                                 [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.max4m_GALAVA_MCP_UseRefClk = false                                                     [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.max4m_MAIA_MCP_UseRefClk = false                                                       [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.max4qrateMode = false                                                                  [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.memCmdIncSize = 8                                                                      [Init: 8]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.memCmdStartAddrSize = 32                                                               [Init: 32]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.onCardMemFreq = 303.0                                                                  [Init: 0.0, change: 303.0]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.parEccDebugStream = false                                                              [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.parityEccWidth = 0                                                                     [Init: 0]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.parityMode = false                                                                     [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.perdqsPhaseDetect = false                                                              [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.dram.performanceMode = true                                                                 [Init: true]
+Sat 11:51: INFO    : 	ManagerConfiguration.enableMPCX = false                                                                          [Init: false, init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.maxring.maxringConnections = []                                                             [Init: []]
+Sat 11:51: INFO    : 	ManagerConfiguration.maxring.maxringNumLanes = {MAXRING_B=2, MAXRING_LITE_A=1, MAXRING_LITE_B=1, MAXRING_A=2}    [Init: {}]
+Sat 11:51: INFO    : 	ManagerConfiguration.multiCycleMappedMemoryBus = false                                                           [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.network.qsfp0Mode = QSFP_OFF                                                                [Init: QSFP_OFF]
+Sat 11:51: INFO    : 	ManagerConfiguration.network.qsfp1Mode = QSFP_OFF                                                                [Init: QSFP_OFF]
+Sat 11:51: INFO    : 	ManagerConfiguration.network.qsfp2Mode = QSFP_OFF                                                                [Init: QSFP_OFF]
+Sat 11:51: INFO    : 	ManagerConfiguration.network.qsfp3Mode = QSFP_OFF                                                                [Init: QSFP_OFF]
+Sat 11:51: INFO    : 	ManagerConfiguration.network.qsfp4Mode = QSFP_OFF                                                                [Init: QSFP_OFF]
+Sat 11:51: INFO    : 	ManagerConfiguration.network.qsfp5Mode = QSFP_OFF                                                                [Init: QSFP_OFF]
+Sat 11:51: INFO    : 	ManagerConfiguration.network.qsfp6Mode = QSFP_OFF                                                                [Init: QSFP_OFF]
+Sat 11:51: INFO    : 	ManagerConfiguration.network.qsfp7Mode = QSFP_OFF                                                                [Init: QSFP_OFF]
+Sat 11:51: INFO    : 	ManagerConfiguration.pcie.numPCIeLanes = 0                                                                       [Init: 0]
+Sat 11:51: INFO    : 	ManagerConfiguration.pcie.pcieFastClock = false                                                                  [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.pcie.streamFromHostMaxNum = 8                                                               [Init: 0, change: 8]
+Sat 11:51: INFO    : 	ManagerConfiguration.pcie.streamToHostMaxNum = 8                                                                 [Init: 0, change: 8]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.boardModel = MAX3424A                                                               [Init: null, change: MAX3424A]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.ddr3Enable = false                                                                  [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.ddr3Frq = 303.0                                                                     [Init: 400.0, change: 303.0]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.ddr3Qmode = false                                                                   [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.disableMultiplePersona = true                                                       [Init: true]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.dynamic_scaling = false                                                             [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.enableCPLDOverrideOutpus = false                                                    [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.enableJDFEPTPTestLogic = false                                                      [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.maxRingLocal = false                                                                [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.maxRingOptical = false                                                              [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.maxringDataRate = 2500.0                                                            [Init: 2500.0]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.maxringOpticalDataRate = 10000.0                                                    [Init: 10000.0]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.mode = InitMode                                                                     [Init: InitMode]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.networkPTP = OFF                                                                    [Init: OFF]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.panMaxRingA = false                                                                 [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.panMaxRingB = false                                                                 [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.personaInterfaceVersion = 1                                                         [Init: 1]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.qdr2Enable = false                                                                  [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.qdr2Frq = 550.0                                                                     [Init: 550.0]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.streamClks = 1                                                                      [Init: 1]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.streamFrq = [100.0]                                                                 [Init: [150.0], change: [100.0]]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.streamPs = [0]                                                                      [Init: [0]]
+Sat 11:51: INFO    : 	ManagerConfiguration.persona.usePCIeGen1 = false                                                                 [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.simulation.nativeFloatingPoint = false                                                      [Init: false]
+Sat 11:51: INFO    : 	ManagerConfiguration.streamClockFrq = 100                                                                        [Init: 100]
+Sat 11:51: INFO    : 	ManagerConfiguration.useLegacyStreamFIFOs = false                                                                [Init: false]
+Sat 11:51: INFO    : 
+Sat 11:51: INFO    :  -- 
+Sat 11:51: PROGRESS: 
+Sat 11:51: PROGRESS: Compiling kernel "MemStreamKernel"
+Sat 11:51: INFO    : Configuration:
+Sat 11:51: INFO    : 	KernelConfiguration.additionalInputPipelining = 64                                          [Init: 64]
+Sat 11:51: INFO    : 	KernelConfiguration.allowDSPCascading = true                                                [Init: true]
+Sat 11:51: INFO    : 	KernelConfiguration.allowInputsOutputsBeforeFlushNode = false                               [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.allowZeroLatencyNodeHold = false                                        [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.board = MAX3424A                                                        [Init: MAX2116B, change: MAX3424A]
+Sat 11:51: INFO    : 	KernelConfiguration.bramBitsThreshold = 2080                                                [Init: 2080]
+Sat 11:51: INFO    : 	KernelConfiguration.buildTarget = MAXCOMPILERSIM_HOST_DRIVEN                                [Init: NONE, change: MAXCOMPILERSIM_HOST_DRIVEN]
+Sat 11:51: INFO    : 	KernelConfiguration.cePipelining = 2                                                        [Init: 2]
+Sat 11:51: INFO    : 	KernelConfiguration.clockPhaseBalanceThreshold = 0.1                                        [Init: 0.1]
+Sat 11:51: INFO    : 	KernelConfiguration.clockPhasingRetries = 50                                                [Init: 50]
+Sat 11:51: INFO    : 	KernelConfiguration.dumpNeighboursString =                                                  [Init: ]
+Sat 11:51: INFO    : 	KernelConfiguration.enableCeReplication = true                                              [Init: true]
+Sat 11:51: INFO    : 	KernelConfiguration.enableClockPhasePartitioning = false                                    [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.enableDebugIOControlRegs = true                                         [Init: true]
+Sat 11:51: INFO    : 	KernelConfiguration.enableDummyBuild = false                                                [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.enableKernelProfiler = false                                            [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.enablePipelinedComputeController = false                                [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.enableShadowRegister = false                                            [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.enableSmartKernelControl = false                                        [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.fifoSrlRegisterStages = 1                                               [Init: 1]
+Sat 11:51: INFO    : 	KernelConfiguration.flushOnInputDataCongtiguous = false                                     [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.hardwareDebugDepth = 512                                                [Init: 512]
+Sat 11:51: INFO    : 	KernelConfiguration.hwHierarchyMode = UNSET                                                 [Init: UNSET]
+Sat 11:51: INFO    : 	KernelConfiguration.latencyAnnotation = false                                               [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.latencyAnnotationIOs =                                                  [Init: null]
+Sat 11:51: INFO    : 	KernelConfiguration.maxCoalescedFifoWidth = 2147483647                                      [Init: 2147483647]
+Sat 11:51: INFO    : 	KernelConfiguration.maxPreAdderFanOut = 1                                                   [Init: 1]
+Sat 11:51: INFO    : 	KernelConfiguration.netlistMode = false                                                     [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.numPhotonStateMachines = 1                                              [Init: 1]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.ceCounterRegisterDuplication = 1                          [Init: 1]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.conditionalArithmetic = false                             [Init: true, Init after BuildTarget change: false]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.counterChainWrapPipelining = 0                            [Init: 0]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.dspAddChain = OPTIMISE_IGNORE_PREADDER                    [Init: null, Init after BuildTarget change: OPTIMISE_IGNORE_PREADDER]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enableActiveFanoutReduction = false                       [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enableBUFGCE = false                                      [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enableBetterInputRegistering = false                      [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enableBetterRegistering = false                           [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enableFIFOCoalescingAcrossPlacementConstraints = false    [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enableFifoCoalescing = true                               [Init: true]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enableFullPrecisionBinaryOpConstants = false              [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enableIntegratedRounding = false                          [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enableMappedMemoryHostReadBack = true                     [Init: true]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enableMultiCycleReset = false                             [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enablePowerTwoFloatMult = true                            [Init: true]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enableRedundantNodeDeletion = true                        [Init: true]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.enableStateMachineRegisterMerging = true                  [Init: true]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.inputFlushDistanceFactor = 0                              [Init: 0]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.minimumStaticFIFOSplitDepth = 1                           [Init: 1]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.optimizationTechnique = DEFAULT                           [Init: DEFAULT]
+Sat 11:51: INFO    : 	KernelConfiguration.optimizations.triAdd = false                                            [Init: true, Init after BuildTarget change: false]
+Sat 11:51: INFO    : 	KernelConfiguration.partialReconfBlockName =                                                [Init: ]
+Sat 11:51: INFO    : 	KernelConfiguration.partialReconfMode = false                                               [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.partialReconfTemplate = false                                           [Init: false]
+Sat 11:51: INFO    : 	KernelConfiguration.replicateNodeCeLog2NumPartitions = 0                                    [Init: 0]
+Sat 11:51: INFO    : 	KernelConfiguration.romBRAMBitsThreshold = 2080                                             [Init: 2080]
+Sat 11:51: INFO    : 	KernelConfiguration.simulation.ramAddressCollisionBehaviour = EXCEPTION                     [Init: EXCEPTION]
+Sat 11:51: INFO    : 	KernelConfiguration.simulation.ramOutOfBoundsAccessBehaviour = EXCEPTION                    [Init: EXCEPTION]
+Sat 11:51: INFO    : 	KernelConfiguration.simulation.simProgressMessageFrequency = 0                              [Init: 0]
+Sat 11:51: INFO    : 
+Sat 11:51: INFO    :  -- 
+Sat 11:51: WARNING : Warning (UNCONNECTED_DESIGN_ELEMENT):
+Sat 11:51: WARNING : Unconnected elements in design 'MemStreamKernel'
+Sat 11:51: WARNING : details in : /home/demo/Desktop/MaxCompiler-Builds/MemStream_VECTIS_DFE_SIM/scratch/MemStreamKernel_graph_warnings.txt
+Sat 11:51: INFO    : Writing current graph to: MemStream-MemStreamKernel-original.pxg
+Sat 11:51: INFO    : Running kernel graph-pass 'GeneratePXG'.
+Sat 11:51: INFO    : Graph-pass 'GeneratePXG' took 535.586 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Sat 11:51: INFO    : Graph-pass 'MarkConstantPass' took 6.10480 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'ReachabilityPass'.
+Sat 11:51: INFO    : Graph-pass 'ReachabilityPass' took 25.6499 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'FindInputsLeadingToFlush'.
+Sat 11:51: INFO    : Graph-pass 'FindInputsLeadingToFlush' took 97.5050 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'CheckForStatefulToFlushViolations'.
+Sat 11:51: INFO    : Graph-pass 'CheckForStatefulToFlushViolations' took 327.776 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'CheckForInputToFlushViolations'.
+Sat 11:51: INFO    : Graph-pass 'CheckForInputToFlushViolations' took 937.798 µs (1 iterations)
+Sat 11:51: INFO    : Deleting directory: neighbours
+Sat 11:51: INFO    : Running Photon pre-schedule graph optimisations
+Sat 11:51: INFO    : Running kernel graph-pass 'AlignOrEradicatePrintfs'.
+Sat 11:51: INFO    : Graph-pass 'AlignOrEradicatePrintfs' took 4.02491 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'FoldConstantsPass'.
+Sat 11:51: INFO    : Graph-pass 'FoldConstantsPass' took 3.12149 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'OptimiseNodesPass'.
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 7) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 44) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 84) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 124) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 164) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 204) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 244) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 284) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 324) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 364) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 404) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 444) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 484) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 524) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 564) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 604) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 644) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 684) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 724) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 764) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 804) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 844) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 884) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 924) has been optimized to shifts/adds
+Sat 11:51: INFO    : Constant multiplication by 0.618034 (node 964) has been optimized to shifts/adds
+Sat 11:51: INFO    : Graph-pass 'OptimiseNodesPass' took 68.9275 ms (2 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'DeleteRedundantNodes'.
+Sat 11:51: INFO    : Graph-pass 'DeleteRedundantNodes' took 6.25846 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'DSPMultiplyAddExtractionPass'.
+Sat 11:51: INFO    : Optimized 0 sub-graphs into DSP multiply/add chains (Virtex5 mode).
+Sat 11:51: INFO    : Graph-pass 'DSPMultiplyAddExtractionPass' took 72.5854 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'PO2FPMultOptimiser'.
+Sat 11:51: INFO    : Graph-pass 'PO2FPMultOptimiser' took 189.464 µs (1 iterations)
+Sat 11:51: INFO    : Running Photon simulation preparation
+Sat 11:51: INFO    : Running kernel graph-pass 'PrepareSimulationPass'.
+Sat 11:51: INFO    : Graph-pass 'PrepareSimulationPass' took 163.457 µs (1 iterations)
+Sat 11:51: INFO    : Logging Photon stats to: MemStreamKernel_photon_stats.csv
+Sat 11:51: INFO    : Deleting /home/demo/Desktop/MaxCompiler-Builds/MemStream_VECTIS_DFE_SIM/scratch/MemStreamKernel_photon_stats.csv
+Sat 11:51: INFO    : Running kernel graph-pass 'StatsPass'.
+Sat 11:51: INFO    : Graph-pass 'StatsPass' took 5.78575 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'CollectNumericExceptions'.
+Sat 11:51: INFO    : Graph-pass 'CollectNumericExceptions' took 166.696 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'StreamOffsetDivExpand'.
+Sat 11:51: INFO    : Graph-pass 'StreamOffsetDivExpand' took 121.670 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'FindIllegalLoops'.
+Sat 11:51: INFO    : Graph-pass 'FindIllegalLoops' took 3.40102 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Sat 11:51: INFO    : Graph-pass 'MarkConstantPass' took 2.38407 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'ScheduleVariables'.
+Sat 11:51: INFO    : Graph-pass 'ScheduleVariables' took 7.86453 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'SubstituteEqPlaceholders'.
+Sat 11:51: INFO    : Graph-pass 'SubstituteEqPlaceholders' took 121.210 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'ScheduleApplier'.
+Sat 11:51: INFO    : Graph-pass 'ScheduleApplier' took 7.12989 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Sat 11:51: INFO    : Graph-pass 'MarkConstantPass' took 376.696 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'ScheduleDumper'.
+Sat 11:51: INFO    : Graph-pass 'ScheduleDumper' took 8.82824 ms (1 iterations)
+Sat 11:51: INFO    : Running Photon post-schedule graph optimisations (pass 1)
+Sat 11:51: INFO    : Running kernel graph-pass 'TapFIFOsPass'.
+Sat 11:51: INFO    : Graph-pass 'TapFIFOsPass' took 11.0471 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'FoldFIFOsPass'.
+Sat 11:51: INFO    : Graph-pass 'FoldFIFOsPass' took 10.8212 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Sat 11:51: INFO    : Graph-pass 'MarkConstantPass' took 311.747 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'ValidateFIFOs'.
+Sat 11:51: INFO    : Graph-pass 'ValidateFIFOs' took 139.035 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Sat 11:51: INFO    : Graph-pass 'MarkConstantPass' took 390.246 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'ScheduleDumper'.
+Sat 11:51: INFO    : Graph-pass 'ScheduleDumper' took 4.49733 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Sat 11:51: INFO    : Graph-pass 'MarkConstantPass' took 300.888 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'ScheduleConstants'.
+Sat 11:51: INFO    : Running command: "/opt/maxeler/maxcompiler/bin/cbc" "MemStreamKernel_schedule_C.mps.gz" -solve  -printi csv -solu "MemStreamKernel_schedule_C.csv" > "MemStreamKernel_schedule_C.stdout.log"
+Sat 11:51: INFO    : Checking for file hash changes...
+Sat 11:51: INFO    : No changes.
+Sat 11:51: INFO    : Optimum found: 0
+Sat 11:51: INFO    : Graph-pass 'ScheduleConstants' took 83.3107 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Sat 11:51: INFO    : Graph-pass 'MarkConstantPass' took 965.898 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'ScheduleDumper'.
+Sat 11:51: INFO    : Graph-pass 'ScheduleDumper' took 570.986 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'SubstituteEqPlaceholders'.
+Sat 11:51: INFO    : Graph-pass 'SubstituteEqPlaceholders' took 66.2280 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'RemoveDistMeasurementNodes'.
+Sat 11:51: INFO    : Graph-pass 'RemoveDistMeasurementNodes' took 18.6230 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'ScheduleApplier'.
+Sat 11:51: INFO    : Graph-pass 'ScheduleApplier' took 303.168 µs (1 iterations)
+Sat 11:51: INFO    : Maximum stream latency for kernel 'MemStreamKernel': 5
+Sat 11:51: INFO    : Using user logic for flush.
+Sat 11:51: INFO    : Running Photon post-schedule graph optimisations (pass 2)
+Sat 11:51: INFO    : Running kernel graph-pass 'TapFIFOsPass'.
+Sat 11:51: INFO    : Graph-pass 'TapFIFOsPass' took 864.298 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'FoldFIFOsPass'.
+Sat 11:51: INFO    : Graph-pass 'FoldFIFOsPass' took 3.25224 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Sat 11:51: INFO    : Graph-pass 'MarkConstantPass' took 282.459 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'ScheduleAsserter'.
+Sat 11:51: INFO    : Graph-pass 'ScheduleAsserter' took 237.387 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'ReplaceEvalStreamOffsetNodes'.
+Sat 11:51: INFO    : Graph-pass 'ReplaceEvalStreamOffsetNodes' took 134.357 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'FIFOReport'.
+Sat 11:51: INFO    : Graph-pass 'FIFOReport' took 3.72208 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'StatsPass'.
+Sat 11:51: INFO    : Graph-pass 'StatsPass' took 988.615 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'RemoveUntypedConstants'.
+Sat 11:51: INFO    : Graph-pass 'RemoveUntypedConstants' took 43.0453 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'VariableSizeMappedRegInserter'.
+Sat 11:51: INFO    : Graph-pass 'VariableSizeMappedRegInserter' took 130.063 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Sat 11:51: INFO    : Graph-pass 'MarkConstantPass' took 280.084 µs (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'MakeMaxFileNodeData'.
+Sat 11:51: INFO    : Graph-pass 'MakeMaxFileNodeData' took 7.05738 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'MoveFanoutRegsForwards'.
+Sat 11:51: INFO    : Graph-pass 'MoveFanoutRegsForwards' took 118.199 µs (1 iterations)
+Sat 11:51: INFO    : Optimization report for Kernel 'MemStreamKernel'.
+Sat 11:51: INFO    : Enabled optimizations:
+Sat 11:51: INFO    : 	DSP-Multiplication
+Sat 11:51: INFO    : 	Power-of-2 Floating Point
+Sat 11:51: INFO    : Creating a preliminary MaxCompilerDesignData.dat. (@ CoreCompile MemStreamKernel)
+Sat 11:51: INFO    : Deleting /home/demo/Desktop/MaxCompiler-Builds/MemStream_VECTIS_DFE_SIM/scratch/MaxCompilerDesignData.dat
+Sat 11:51: INFO    : Total compilation of 'MemStreamKernel' took 1.64930 s.
+Sat 11:51: INFO    : Running kernel graph-pass 'MarkConstantPass'.
+Sat 11:51: INFO    : Graph-pass 'MarkConstantPass' took 1.96263 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'MaxConstantLatency'.
+Sat 11:51: INFO    : Graph-pass 'MaxConstantLatency' took 2.10860 ms (1 iterations)
+Sat 11:51: INFO    : Running kernel graph-pass 'SimCodeGraphPass'.
+Sat 11:51: INFO    : Graph-pass 'SimCodeGraphPass' took 26.2403 ms (1 iterations)
+Sat 11:51: INFO    : Writing current graph to: MemStream-MemStreamKernel-final-simulation.pxg
+Sat 11:51: INFO    : Running kernel graph-pass 'GeneratePXG'.
+Sat 11:51: INFO    : Graph-pass 'GeneratePXG' took 83.0722 ms (1 iterations)
+Sat 11:51: INFO    : Deleting /home/demo/Desktop/MaxCompiler-Builds/MemStream_VECTIS_DFE_SIM/scratch/Manager_MemStream.graphs
+Sat 11:51: INFO    : Running manager compiler graph-pass: GenerateMXGInfo
+Sat 11:51: INFO    : Running manager compiler graph-pass: ScheduleStallLatency
+Sat 11:51: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Sat 11:51: INFO    : Running manager compiler graph-pass: InsertDualAspectLogic
+Sat 11:51: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Sat 11:51: INFO    : Running manager compiler graph-pass: InsertPullPushAdapter
+Sat 11:51: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Sat 11:51: INFO    : Running manager compiler graph-pass: InsertStreamFifos
+Sat 11:51: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Sat 11:51: INFO    : Running manager compiler graph-pass: InsertStreamStatus
+Sat 11:51: INFO    : Running manager compiler graph-pass: InsertChipscope
+Sat 11:51: INFO    : Inserted 0 chipscope manager nodes.
+Sat 11:51: INFO    : Running manager compiler graph-pass: ClockWidthAssignment
+Sat 11:51: INFO    : Running manager compiler graph-pass: ReportClockAssignments
+Sat 11:51: INFO    : Running manager compiler graph-pass: BuildSoftwareSim
+Sat 11:51: INFO    : Mapped register report:
+Sat 11:51: INFO    : 	0	a	4bytes
+Sat 11:51: INFO    : 	4	b	4bytes
+Sat 11:51: INFO    : 	8	io_r_force_disabled	1bytes
+Sat 11:51: INFO    : 	9	run_cycle_count	6bytes
+Sat 11:51: INFO    : 	f	current_run_cycle_count	6bytes
+Sat 11:51: INFO    : 	15	dbg_ctld_almost_empty	1bytes
+Sat 11:51: INFO    : 	16	dbg_ctld_done	1bytes
+Sat 11:51: INFO    : 	17	dbg_ctld_empty	1bytes
+Sat 11:51: INFO    : 	18	dbg_ctld_read	1bytes
+Sat 11:51: INFO    : 	19	dbg_ctld_read_pipe_dbg	1bytes
+Sat 11:51: INFO    : 	1a	dbg_ctld_request	1bytes
+Sat 11:51: INFO    : 	1b	dbg_done_out	1bytes
+Sat 11:51: INFO    : 	1c	dbg_fill_level	1bytes
+Sat 11:51: INFO    : 	1d	dbg_flush_level	1bytes
+Sat 11:51: INFO    : 	1e	dbg_flush_start	1bytes
+Sat 11:51: INFO    : 	1f	dbg_flush_start_level	1bytes
+Sat 11:51: INFO    : 	20	dbg_flushing	1bytes
+Sat 11:51: INFO    : 	21	dbg_full_level	1bytes
+Sat 11:51: INFO    : 	22	dbg_out_stall	1bytes
+Sat 11:51: INFO    : 	23	dbg_out_valid	1bytes
+Sat 11:51: INFO    : 	24	dbg_stall_vector	1bytes
+Sat 11:51: INFO    : 	25	ifpga_ctrl	1bytes
+Sat 11:51: INFO    : 	26	SFA_FORWARD_EN	4bytes
+Sat 11:51: INFO    : Mapped register chain length = 42
+Sat 11:51: INFO    : Mapped register efficiency = 0.67 (225 / 336 bits)
+Sat 11:51: INFO    : Mapped memory report:
+Sat 11:51: INFO    : 	No mapped memories in this design.
+Sat 11:51: INFO    : Running manager compiler graph-pass: GenerateMXGInfo
+Sat 11:51: INFO    : Running manager compiler graph-pass: GenerateSlicHostCode
+Sat 11:51: INFO    : Generating SLIC interface information
+Sat 11:51: INFO    : Generating SLIC code for interface 'default'
+Sat 11:51: INFO    : Skipping blacklisted scalar parameter 'MemStreamKernel.current_run_cycle_count'
+Sat 11:51: INFO    : Interface 'default' depends on parameter 'a'
+Sat 11:51: INFO    : Interface 'default' depends on parameter 'b'
+Sat 11:51: INFO    : Interface 'default' depends on parameter 'max'
+Sat 11:51: INFO    : Generating XML description for Maxfile
+Sat 11:51: INFO    : Generating XML description for mode 'default'
+Sat 11:51: INFO    : Skipping blacklisted scalar parameter 'MemStreamKernel.current_run_cycle_count'
+Sat 11:51: INFO    : Interface 'default' depends on parameter 'a'
+Sat 11:51: INFO    : Interface 'default' depends on parameter 'b'
+Sat 11:51: INFO    : Interface 'default' depends on parameter 'max'
+Sat 11:51: INFO    : Adding SLIC sections to the maxfile
+Sat 11:51: INFO    : Adding user files to the maxfile
+Sat 11:51: INFO    : Generating SLIC include file
+Sat 11:51: INFO    : Done generating SLIC interface information
+Sat 11:51: PROGRESS: Running back-end simulation build (3 phases)
+Sat 11:51: PROGRESS: (1/3) - Prepare MaxFile Data (GenerateMaxFileDataFile)
+Sat 11:51: INFO    : Build pass 'GenerateMaxFileDataFile' took 10.9612 ms.
+Sat 11:51: PROGRESS: (2/3) - Compile Simulation Modules (SimCompilePass)
+Sat 11:51: INFO    : Running command: make -j1
+Sat 11:51: INFO    : Checking for file hash changes...
+Sat 11:51: INFO    : Hash changed for file: 'tmp_resource_dump/MemStreamKernel.cpp'
+Sat 11:51: INFO    : Hash changed for file: 'tmp_resource_dump/MemStreamKernel.h'
+Sat 11:51: INFO    : Hash changed for file: '../../MaxCompilerDesignData.dat'
+Sat 11:51: INFO    : Hash changed for file: 'tmp_resource_dump/MemStreamKernel_exec0.cpp'
+Sat 11:51: INFO    : /opt/maxeler/maxcompiler/lib/clang/bin/start.sh clang++ -c -fPIC -B/opt/maxeler/maxcompiler/lib/gcc -fbracket-depth=1024 -D_GLIBCXX__PTHREADS -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -O0 -DOPTIMIZATION_LEVEL=0 -x c++-header \
+Sat 11:51: INFO    : 		-o stdsimheader.h.gch/O0_stdsimheader.h.gch stdsimheader.h
+Sat 11:51: INFO    : /opt/maxeler/maxcompiler/lib/clang/bin/start.sh clang++ -c -fPIC -B/opt/maxeler/maxcompiler/lib/gcc -fbracket-depth=1024 -D_GLIBCXX__PTHREADS -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -O2 -DOPTIMIZATION_LEVEL=2 -x c++-header \
+Sat 11:51: INFO    : 		-o stdsimheader.h.gch/NoTplInst_O2_stdsimheader.h.gch stdsimheader.h
+Sat 11:51: INFO    : make MemStream.so
+Sat 11:51: INFO    : make[1]: Entering directory `/home/demo/Desktop/MaxCompiler-Builds/MemStream_VECTIS_DFE_SIM/scratch/software-sim/build'
+Sat 11:51: INFO    : /opt/maxeler/maxcompiler/lib/clang/bin/start.sh clang++ -c -fPIC -B/opt/maxeler/maxcompiler/lib/gcc -fbracket-depth=1024 -D_GLIBCXX__PTHREADS -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -fno-implicit-templates -include-pch stdsimheader.h.gch -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/MemStreamKernel_exec0.NoTplInst.O2.o MemStreamKernel_exec0.cpp
+Sat 11:51: INFO    : /opt/maxeler/maxcompiler/lib/clang/bin/start.sh clang++ -fPIC -B/opt/maxeler/maxcompiler/lib/gcc -fbracket-depth=1024 -D_GLIBCXX__PTHREADS -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/MemStreamKernel_exec0.NoTplInst.O2.o \
+Sat 11:51: INFO    : 		MemStreamKernel_exec0.cpp > objdir/MemStreamKernel_exec0.NoTplInst.O2.d
+Sat 11:51: INFO    : /opt/maxeler/maxcompiler/lib/clang/bin/start.sh clang++ -c -fPIC -B/opt/maxeler/maxcompiler/lib/gcc -fbracket-depth=1024 -D_GLIBCXX__PTHREADS -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -include-pch stdsimheader.h.gch -O0 -DOPTIMIZATION_LEVEL=0 -o objdir/MemStreamKernel.O0.o MemStreamKernel.cpp
+Sat 11:51: INFO    : /opt/maxeler/maxcompiler/lib/clang/bin/start.sh clang++ -fPIC -B/opt/maxeler/maxcompiler/lib/gcc -fbracket-depth=1024 -D_GLIBCXX__PTHREADS -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/MemStreamKernel.O0.o \
+Sat 11:51: INFO    : 		MemStreamKernel.cpp > objdir/MemStreamKernel.O0.d
+Sat 11:51: INFO    : /opt/maxeler/maxcompiler/lib/clang/bin/start.sh clang++ -c -fPIC -B/opt/maxeler/maxcompiler/lib/gcc -fbracket-depth=1024 -D_GLIBCXX__PTHREADS -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -include-pch stdsimheader.h.gch -O2 -DOPTIMIZATION_LEVEL=2 -o objdir/MemStreamKernel_Templates.O2.o MemStreamKernel_Templates.cpp
+Sat 11:51: INFO    : /opt/maxeler/maxcompiler/lib/clang/bin/start.sh clang++ -fPIC -B/opt/maxeler/maxcompiler/lib/gcc -fbracket-depth=1024 -D_GLIBCXX__PTHREADS -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/MemStreamKernel_Templates.O2.o \
+Sat 11:51: INFO    : 		MemStreamKernel_Templates.cpp > objdir/MemStreamKernel_Templates.O2.d
+Sat 11:51: INFO    : /opt/maxeler/maxcompiler/lib/clang/bin/start.sh clang++ -c -fPIC -B/opt/maxeler/maxcompiler/lib/gcc -fbracket-depth=1024 -D_GLIBCXX__PTHREADS -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -include-pch stdsimheader.h.gch -O0 -DOPTIMIZATION_LEVEL=0 -o objdir/max_msi.O0.o max_msi.cpp
+Sat 11:51: INFO    : In file included from max_msi.cpp:19:
+Sat 11:51: INFO    : /home/demo/Desktop/MaxCompiler-Builds/MemStream_VECTIS_DFE_SIM/scratch/software-sim/build/MaxFile.h:4:9: warning: '_QUOTE' macro redefined [-Wmacro-redefined]
+Sat 11:51: INFO    : #define _QUOTE(what) #what
+Sat 11:51: INFO    :         ^
+Sat 11:51: INFO    : /opt/maxeler/maxcompiler/lib/maxeleros-sim/include/maxrt_error.h:87:9: note: previous definition is here
+Sat 11:51: INFO    : #define _QUOTE(x) #x
+Sat 11:51: INFO    :         ^
+Sat 11:51: INFO    : 1 warning generated.
+Sat 11:51: INFO    : /opt/maxeler/maxcompiler/lib/clang/bin/start.sh clang++ -fPIC -B/opt/maxeler/maxcompiler/lib/gcc -fbracket-depth=1024 -D_GLIBCXX__PTHREADS -D__USE_XOPEN2K8 -O3  -I. -I/opt/maxeler/maxcompiler/lib/boost/include -I/opt/maxeler/maxcompiler/lib/maxeleros-sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim -I/opt/maxeler/maxcompiler/lib/lwip_sim/include -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/arch -I/opt/maxeler/maxcompiler/lib/lwip_sim/include/ipv4  -DHAVE_KERNELS -DMAXFILE_INC="../../MaxCompilerDesignData.dat" -g0  -DSLIC_NO_DECLARATIONS   -MM -MP -MT objdir/max_msi.O0.o \
+Sat 11:51: INFO    : 		max_msi.cpp > objdir/max_msi.O0.d
+Sat 11:51: INFO    : /opt/maxeler/maxcompiler/lib/clang/bin/start.sh clang++ -fPIC -shared -B/opt/maxeler/maxcompiler/lib/gcc -L/opt/maxeler/maxcompiler/lib/boost/lib -lboost_thread -lboost_system -lboost_filesystem -lrt -pthread -O2 -s  -o MemStream.so objdir/MemStreamKernel_exec0.NoTplInst.O2.o objdir/MemStreamKernel.O0.o objdir/MemStreamKernel_Templates.O2.o objdir/max_msi.O0.o StructToGroupDummy.o Mux.o DualAspectMux.o Demux.o Fanout.o CapRegs.o IFPGARegs.o ChecksumMem.o PCIe.o KernelManagerBlockSync.o DualAspectReg.o PullPushAdapter.o FilePullSource.o max_shared_fifo.o SharedFIFO.o Fifos.o FilePushSink.o SimTerminator.o Watch.o StreamStatus.o RunLengthExpander.o ManagerBlock.o MappedElements.o ManagerSync.o PullSync.o PushSync.o DynamicVarUInt.o SimException.o DebugStreams.o AddressGenerator.o MemoryControllerPro.o MemoryControllerRAM.o MemoryControllerCommand.o MemoryControllerStreams.o MemoryControllerConfig.o TCP.o Ethernet.o Timestamp.o /opt/maxeler/maxcompiler/lib/lwip_sim/lib/liblwip.a
+Sat 11:51: INFO    : make[1]: Leaving directory `/home/demo/Desktop/MaxCompiler-Builds/MemStream_VECTIS_DFE_SIM/scratch/software-sim/build'
+Sat 11:51: INFO    : Build pass 'SimCompilePass' took 14.7054 s.
+Sat 11:51: PROGRESS: (3/3) - Generate MaxFile (AddSimObjectToMaxFilePass)
+Sat 11:51: INFO    : Build pass 'AddSimObjectToMaxFilePass' took 858.647 ms.
+Sat 11:51: INFO    : Final result files after build: 
+Sat 11:51: INFO    : Running command: ln -sf "../scratch/MemStream-MemStreamKernel-original.pxg"
+Sat 11:51: INFO    : MemStream-MemStreamKernel-original.pxg (BuildFilePXG)
+Sat 11:51: INFO    : Running command: ln -sf "../scratch/MemStreamKernel_Configuration.txt"
+Sat 11:51: INFO    : MemStreamKernel_Configuration.txt (BuildFile)
+Sat 11:51: INFO    : Running command: ln -sf "../scratch/MemStreamKernel_NodeDiary.txt"
+Sat 11:51: INFO    : MemStreamKernel_NodeDiary.txt (BuildFile)
+Sat 11:51: INFO    : Running command: ln -sf "../scratch/MemStream-MemStreamKernel-final-simulation.pxg"
+Sat 11:51: INFO    : MemStream-MemStreamKernel-final-simulation.pxg (BuildFilePXG)
+Sat 11:51: INFO    : Running command: ln -sf "../scratch/MemStream.xml"
+Sat 11:51: INFO    : MemStream.xml (BuildFile)
+Sat 11:51: INFO    : Running command: ln -sf "../scratch/MemStream.h"
+Sat 11:51: INFO    : MemStream.h (BuildFileSlicH)
+Sat 11:51: INFO    : Running command: ln -sf "../scratch/MemStream.max"
+Sat 11:51: INFO    : MemStream.max (BuildFileMaxFile)
+Sat 11:51: INFO    : Result files will be copied to '/home/demo/workspace/GoldenSS/RunRules/Simulation/maxfiles'
+Sat 11:51: INFO    : Result 'MemStream-MemStreamKernel-original.pxg' is identical to '/home/demo/workspace/GoldenSS/RunRules/Simulation/maxfiles/MemStream-MemStreamKernel-original.pxg': not overwriting.
+Sat 11:51: INFO    : Result 'MemStream-MemStreamKernel-final-simulation.pxg' is identical to '/home/demo/workspace/GoldenSS/RunRules/Simulation/maxfiles/MemStream-MemStreamKernel-final-simulation.pxg': not overwriting.
+Sat 11:51: INFO    : Result 'MemStream.h' is identical to '/home/demo/workspace/GoldenSS/RunRules/Simulation/maxfiles/MemStream.h': not overwriting.
+Sat 11:51: INFO    : Result 'MemStream.max' is identical to '/home/demo/workspace/GoldenSS/RunRules/Simulation/maxfiles/MemStream.max': not overwriting.
+Sat 11:51: PROGRESS: MaxFile: /home/demo/Desktop/MaxCompiler-Builds/MemStream_VECTIS_DFE_SIM/results/MemStream.max (MD5Sum: 8eed83bd29e18500d092289322e144a2)
+Sat 11:51: INFO    : Waiting for any outstanding jobs to finish... 
+Sat 11:51: PROGRESS: Build completed: Sat Jan 30 11:51:36 PST 2016 (took 21 secs)
